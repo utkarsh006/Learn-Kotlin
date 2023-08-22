@@ -1,8 +1,8 @@
 /* Points to remember:
 
 1. We can’t create an object for abstract class.
-2. All the variables (properties) and member functions of an abstract class are by default non-abstract. So, if we want to override these members in the child class 
-   then we need to use open keyword.
+2. All the variables (properties) and member functions of an abstract class are by default non-abstract. So, if we want to override 
+these members in the child class, then we need to use open keyword.
 3. If we declare a member function as abstract then we does not need to annotate with open keyword because these are open by default.
 4. An abstract member function doesn’t have a body, and it must be implemented in the derived class.         */
 
