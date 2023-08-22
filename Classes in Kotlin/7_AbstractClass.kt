@@ -34,8 +34,8 @@ fun main()
 // OUTPUT : Studying broo..
 
 
- /* Every class which inherits the Person class overrides the function doWork, so no need to have implementation of doWork(). So, abstract class comes into the 
- picture. */
+ /* Every class which inherits the Person class overrides the function doWork, so no need to have implementation of doWork(). 
+ So, abstract class comes into the picture. */
  
  
 abstract class Person(val name: String)
