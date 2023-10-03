@@ -28,10 +28,12 @@ fun main() {
 init block is called
 Name: Utkarsh null 
 
-Output Explanation : Since, obj is created hence primary constructor is called by default, so "init block is called" is printed, while lastname remains as null 
-so Utkarsh null is printed. We can also say that user passed one parameter to call the primary constructor  */
+Output Explanation : Since, obj is created hence primary constructor is called by default,
+so "init block is called" is printed, while lastname remains as null 
+so Utkarsh null is printed. 
+We can also say that user passed one parameter to call the primary constructor  */
 
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------
 
 // Now calling Secondary constructor .........
 
