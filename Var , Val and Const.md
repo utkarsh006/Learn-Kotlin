@@ -10,6 +10,7 @@ Val is similar to the **final keyword** in Java.
    - We cannot change the value of the variable that is declared constant. 
    - It is used at the start of the variable declaration.
 
+- Both val and const are immutable. `Const` is used to declare `compile-time` constants, whereas `Val` for `run-time` constants.
 
 ## Code
 
