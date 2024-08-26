@@ -8,17 +8,10 @@
 
 <br>
 
-- **Run, Apply, With :** this : lambda result
-- **Let, Also :** it : context object
-
-## Guide for Scope Functions 
-
-||||
-|--|--|--|
-|1.|Executing a lambda on non-null objects|let|
-|2.|Introducing an expression as a variable in local scope|let|
-|3.|Object configuration|apply|
-|4.|Object configuration and computing the result|run|
-|5.|Running statements where an expression is required|non-extension run|
-|6.|Additional effects|also|
-|7.|Grouping function calls on an object|with|
+|FunctionName|ObjectReference|ReturnValue|ExtensionFunction|Usage|
+|--|--|--|--|--|
+|Run|this|lambda result|YES||
+|Apply|this|lambda result|YES||
+|With|this|lambda result|No: takes the context object as an argument.|Grouping function calls on an object|
+|Let|it|context object|YES||
+|Also|it|context object|YES||
